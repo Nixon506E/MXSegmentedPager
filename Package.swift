@@ -17,12 +17,11 @@ let package = Package(
         .target(
             name: "MXSegmentedPager",
             dependencies: [
-                "objc",
                 "MXPagerView",
                 "MXSegmentedControl",
                 "MXParallaxHeader"
             ], path: "MXSegmentedPager"
         )
     ],
-    swiftLanguageVersions: [.v5,.v4]
+    cLanguageStandard: .c11
 )
