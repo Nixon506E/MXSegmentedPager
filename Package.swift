@@ -17,6 +17,7 @@ let package = Package(
         .target(
             name: "MXSegmentedPager",
             dependencies: [
+                "objc",
                 "MXPagerView",
                 "MXSegmentedControl",
                 "MXParallaxHeader"
