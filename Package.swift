@@ -21,7 +21,7 @@ let package = Package(
                 "MXSegmentedControl",
                 "MXParallaxHeader"
             ], path: "MXSegmentedPager",
-            publicHeadersPath: "MXSegmentedPager"
+            publicHeadersPath: "Framework"
         )
     ],
     cLanguageStandard: .c11
