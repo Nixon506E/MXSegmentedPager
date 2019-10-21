@@ -9,9 +9,9 @@ let package = Package(
                  targets: ["MXSegmentedPager"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Nixon506E/MXPagerView.git", from: "0.2.0"),
-        .package(url: "https://github.com/Nixon506E/MXSegmentedControl.git", from: "1.1.0"),
-        .package(url: "https://github.com/Nixon506E/MXParallaxHeader.git", from: "1.0.0"),
+        .package(url: "https://github.com/Nixon506E/MXPagerView.git", .branch("master")),
+        .package(url: "https://github.com/Nixon506E/MXSegmentedControl.git", .branch("master")),
+        .package(url: "https://github.com/Nixon506E/MXParallaxHeader.git", .branch("master")),
     ],
     targets: [
         .target(
